@@ -35,11 +35,11 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('<h1>This is the <b>Home</b> Page</h1><p><a href="/">Home</a></p><p><a href="/about">About</a></p>');
 });
 
 app.get('/about', (req, res) => {
-    res.send('About Us!');
+    res.send('<h1>This is the <b>About</b> Page</h1><p><a href="/">Home</a></p><p><a href="/about">About</a></p>');
 });
 
 app.listen(process.env.APP_SOCKET, () => {
