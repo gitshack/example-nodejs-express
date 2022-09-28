@@ -1,0 +1,26 @@
+{
+  "name": "example_nodejs_express",
+  "version": "1.0.0",
+  "description": "NodeJS Express Example",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitshack/example-nodejs-express.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Express"
+  ],
+  "author": "GitShack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitshack/example-nodejs-express/issues"
+  },
+  "homepage": "https://github.com/gitshack/example-nodejs-express#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
